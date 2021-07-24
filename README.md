@@ -1,6 +1,6 @@
 # Simple Alphafold Processing
 
-Some initial invesitgations that Bálint Mészáros and I have run on AlphaFold. This is preliminary data and very should be treated sceptically but hopefully it will save you all some time and effort in answer the questions that you want to answer.
+Some initial invesitgations that Bálint Mészáros and I have run on AlphaFold. This is preliminary data and very should be treated sceptically but hopefully it will save you all some time and effort in answering the questions that you want to answer.
 
 *Processing:*
 - Download AlphaFold structures for human
