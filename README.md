@@ -27,6 +27,15 @@ Full ROC curves:
 ![ROC_IUPred_vs_AlphaFold2-accessibility](https://user-images.githubusercontent.com/14313974/126916867-fd5f2b91-0c0d-4413-a30c-4116f9b5b6d4.png)
 ![ROC_IUPred_vs_AlphaFold2-pLDDT](https://user-images.githubusercontent.com/14313974/126916884-4f41405c-e675-4750-87f0-3d4b4e294d9b.png)
 
+Keep in mind that the above calculations are by no means rigorous benchmarkings and should be treated as an indication rather than proof. However, it is quite striking that AF is able to achieve such a high performance despite that fact that it was neither trained for this application nor did it encounter any of the disordered data in this test.
+
+*How to use:*
+
+While ROC curves are informative, in a real life setting we need to use a defined cutoff. Both of the AF scores we generated are in the [0:1] range and to achieve a standard 5% false positive rate, the following cutoffs should be used:
+- AF accessibility (window=15): cutoff value=0.55, achieves 80.3% true positive rate
+- AF pLDDT (window=15): cutoff value=0.33, achieves 72.6% true positive rate
+- IUPred2 (for comparison): cutoff value=0.56, achieves 58.6% true positive rate
+
 
 *Data:*
 - JSON files of the raw and windowed normalised surface accessibility scores per residue
