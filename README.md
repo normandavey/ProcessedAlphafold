@@ -23,6 +23,11 @@ We calulcated full ROC curves for both AF scores and IUPred2 to have a basis of 
 - AF accessibility (window=15): AUC=0.933
 - AF pLDDT (window=15): AUC=0.902
 
+Full ROC curves:
+![ROC_IUPred_vs_AlphaFold2-accessibility](https://user-images.githubusercontent.com/14313974/126916867-fd5f2b91-0c0d-4413-a30c-4116f9b5b6d4.png)
+![ROC_IUPred_vs_AlphaFold2-pLDDT](https://user-images.githubusercontent.com/14313974/126916884-4f41405c-e675-4750-87f0-3d4b4e294d9b.png)
+
+
 *Data:*
 - JSON files of the raw and windowed normalised surface accessibility scores per residue
 - TDT file with the residue offset, residue, raw score, windowed score
