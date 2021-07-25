@@ -24,8 +24,9 @@ We calulcated full ROC curves for both AF scores and IUPred2 to have a basis of 
 - AF pLDDT (window=15): AUC=0.902
 
 Full ROC curves:
-<img src="https://user-images.githubusercontent.com/14313974/126916867-fd5f2b91-0c0d-4413-a30c-4116f9b5b6d4.png" width="550" height="500">
-![ROC_IUPred_vs_AlphaFold2-pLDDT](https://user-images.githubusercontent.com/14313974/126916884-4f41405c-e675-4750-87f0-3d4b4e294d9b.png)
+
+<img src="https://user-images.githubusercontent.com/14313974/126916867-fd5f2b91-0c0d-4413-a30c-4116f9b5b6d4.png" width="500" height="450">
+<img src="https://user-images.githubusercontent.com/14313974/126916884-4f41405c-e675-4750-87f0-3d4b4e294d9b.png" width="500" height="450">
 
 Keep in mind that the above calculations are by no means rigorous benchmarkings and should be treated as an indication rather than proof. However, it is quite striking that AF is able to achieve such a high performance despite that fact that it was neither trained for this application nor did it encounter any of the disordered data in this test.
 
