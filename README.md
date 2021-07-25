@@ -38,5 +38,8 @@ While ROC curves are informative, in a real life setting we need to use a define
 
 
 *Data:*
-- JSON files of the raw and windowed normalised surface accessibility scores per residue
-- TDT file with the residue offset, residue, raw score, windowed score
+- JSON files of the raw and windowed normalised surface accessibility scores per residue, and the modified pLDDT scores for the full human proteome
+- TDT file with the residue offset, residue, raw score, windowed score for the full human proteome
+- summary statistics of the testing sets and the evaluation measures
+- list of protein regions in the positive and negative testing sets
+- ROC curves in decent resolution
